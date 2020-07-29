@@ -10,3 +10,22 @@ body{
     right: 0;
 }
 
+.nav-header {
+    display: flex;
+    background-color: rgb(77, 74, 74);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
+
+.nav-header span {
+    margin-left: 40px;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: white;
+}
+

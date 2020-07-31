@@ -85,7 +85,7 @@ footer {
     background-color: #1e1e32;
     color: white;
     margin: 0;
-    padding-top: 45px;
+    padding-top: 35px;
     width: 100%;
 }
 
@@ -108,5 +108,76 @@ footer h2 {
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 426px) {
+    main h1 {
+        color: red;
+    }
+
+    html, body {
+        height: auto;
+        overflow-y: initial;
+        overflow-x: hidden;
+    }
+
+    .nav-header a {
+        display: flex;
+        padding-bottom: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-header {
+        padding: 5px 0px;
+        height: auto;
+        display: block;
+    }
+
+    .main-section {
+        display: block;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    
+    .image-container {
+        margin: 0 25%;
+        padding: 20px 0;
+        width: 200px;
+    }
+
+    .main-book-description p {
+        margin-top: 10px;
+        padding: 0 30px;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .main-book-description {
+        margin-left: 0; 
+        text-align: center;
+    }
+
+    .order-button {
+        margin-top: 20px;
+    }
+    
+    footer {
+        padding: 0;
+        padding-top: 30px;
+        align-items: center;
+    }
+
+    footer h2 {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .offer-button {
+        text-align: center;
+        width: 250px;
+        margin: 20px 18%;
+    }
+}
 
 
